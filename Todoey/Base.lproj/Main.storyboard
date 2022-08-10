@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--To Do List-->
         <scene sceneID="7HG-5u-6UT">
             <objects>
                 <tableViewController id="2hj-Jy-fCf" customClass="ToDoListViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +31,7 @@
                             <outlet property="delegate" destination="2hj-Jy-fCf" id="9O0-Oo-7hR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="20L-d6-han"/>
+                    <navigationItem key="navigationItem" title="To Do List" id="20L-d6-han"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HTJ-v3-x0j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,6 +44,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7p7-99-kPw">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.58039215690000001" green="0.30980392159999998" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.58039215690000001" green="0.30980392159999998" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="2hj-Jy-fCf" kind="relationship" relationship="rootViewController" id="ZEc-6K-Eec"/>
